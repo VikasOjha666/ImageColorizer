@@ -1,11 +1,11 @@
 import numpy as np
 import cv2
-from keras.layers import Input,Dense,Reshape,Conv2D,Dropout,multiply,Dot,Concatenate,subtract,ZeroPadding2D,Conv2DTranspose
-from keras.layers import BatchNormalization,LeakyReLU,Flatten,Activation
-from keras.layers import Conv2DTranspose as Deconv2d
-from keras.initializers import RandomNormal
-from keras.optimizers import Adam
-from keras.models import Sequential,Model
+from tensorflow.keras.layers import Input,Dense,Reshape,Conv2D,Dropout,multiply,Dot,Concatenate,subtract,ZeroPadding2D,Conv2DTranspose
+from tensorflow.keras.layers import BatchNormalization,LeakyReLU,Flatten,Activation
+from tensorflow.keras.layers import Conv2DTranspose as Deconv2d
+from tensorflow.keras.initializers import RandomNormal
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.models import Sequential,Model
 import matplotlib.pyplot as plt
 import os
 
